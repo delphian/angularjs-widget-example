@@ -1,4 +1,5 @@
 <div class="route-main">
+  <div uib-alert ng-repeat="alert in alerts" ng-class="'alert-' + (alert.type || 'warning')" class="alert" close="closeAlert($index)">{{ alert.msg }}</div>
   <div class="navbar navbar-light">
     <ul class="nav nav-tabs">
       <li class="nav-item active"><a class="nav-link" href="/">All Accounts</a></li>
@@ -7,6 +8,6 @@
     </ul>
   </div>
   <div ng-repeat="account in accounts">
-    <widgets-accounts-summary account="account" options="options" alerts="alerts"></widgets-accounts-summary>
+    <widgets-accounts-summary account="account" options="config.accountsSummary.options" alerts="alerts"></widgets-accounts-summary>
   </div>
 </div>

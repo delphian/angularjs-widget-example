@@ -2,4 +2,4 @@ var widgetExample = {
   models: { },
   mocks: { }
 };
-var widgetExampleApp = angular.module('WidgetExampleApp', ['ngRoute']);
+var widgetExampleApp = angular.module('WidgetExampleApp', ['ngRoute', 'ui.bootstrap']);
