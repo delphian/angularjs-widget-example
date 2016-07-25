@@ -9,10 +9,10 @@ Example code for creating self contained widget directives in angular 1.5. 3 web
 
 ### Running
 
-`$ git clone https://github.com/delphian/angularjs-widget-example.git`
-`$ cd angularjs-widget-example`
-`$ npm install`
-`$ node server.js`
+* `$ git clone https://github.com/delphian/angularjs-widget-example.git`
+* `$ cd angularjs-widget-example`
+* `$ npm install`
+* `$ node server.js`
 
 Open your browser to `localhost:8082`.
 
