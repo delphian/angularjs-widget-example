@@ -1,6 +1,6 @@
 ## AngularJS Widget Example
 
-Example code for creating self contained widget directives in angular 1.5. 3 web pages will be created. The first page will display all accounts, the second only worker accounts, and the third only supervisor accounts. Each page utilizes the same <widget-account-summary> tag (a widget) to display individual account details.
+Example code for creating self contained widget directives in angular 1.5. 3 web pages will be created. The first page will display all accounts, the second only worker accounts, and the third only supervisor accounts. Each page utilizes the same &lt;widget-account-summary&gt; tag (a widget) to display individual account details.
 
 ### Requirements
 
