@@ -1,0 +1,27 @@
+.widgets-accounts-summary {
+  font-size: 1.5em;
+  border: 1px solid #888888;
+  border-radius: 4px;
+  box-shadow: 10px 10px 10px #aaaaaa;
+  margin: 1em;
+  width: 24em;
+  float: left;
+}
+.widgets-accounts-summary .header {
+  height: 2em;
+  font-size: 1.5em;
+  display: -webkit-flex;
+  background: linear-gradient(to bottom, #f0f0f0, #b0b0b0);
+}
+.widgets-accounts-summary.type-0 .header {
+  background: linear-gradient(to bottom, #f0fff0, #b0d0b0);
+}
+.widgets-accounts-summary .header > div {
+  margin: auto 0;
+}
+.widgets-accounts-summary .content {
+  margin: 0.5em;
+}
+.widgets-accounts-summary .content .left img {
+  max-height: 8em;
+}

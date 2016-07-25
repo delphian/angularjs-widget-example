@@ -1,0 +1,20 @@
+<div class="widgets-accounts-summary unique-{{unique}} type-{{ account.type }}">
+  <div class="container-fluid">
+    <div class="row header">
+      <div class="col-xs-12">
+        <span>{{ account.name.toString() }}</span>
+      </div>
+    </div>
+    <div class="row content">
+      <div class="col-xs-5 left">
+        <img src="{{ account.image }}" />
+      </div>
+      <div class="col-xs-7 right">
+        Title: {{ account.title }}<br />
+        First: {{ account.name.first }}<br />
+        Middle: {{ account.name.middle }}<br />
+        Last: {{ account.name.last }}<br />
+      </div>
+    </div>
+  </div>
+</div>

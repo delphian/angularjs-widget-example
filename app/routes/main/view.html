@@ -1,0 +1,12 @@
+<div class="route-main">
+  <div class="navbar navbar-light">
+    <ul class="nav nav-tabs">
+      <li class="nav-item active"><a class="nav-link" href="/">All Accounts</a></li>
+      <li class="nav-item"><a class="nav-link" href="/workers">Only Workers</a></li>
+      <li class="nav-item"><a class="nav-link" href="/supervisors">Only Supervisors</a></li>
+    </ul>
+  </div>
+  <div ng-repeat="account in accounts">
+    <widgets-accounts-summary account="account" options="options" alerts="alerts"></widgets-accounts-summary>
+  </div>
+</div>

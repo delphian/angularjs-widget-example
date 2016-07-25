@@ -1,0 +1,39 @@
+<html>
+<head>
+  <title>AngularJS Self Contained Widgets</title>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/angular/angular.min.js"></script>
+  <script src="node_modules/angular-route/angular-route.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="app/widgetExampleApp.js"></script>
+  <script src="app/routes/routes.js"></script>
+  <script src="app/models/name.js"></script>
+  <script src="app/models/account.js"></script>
+  <script src="app/models/account-type.js"></script>
+  <script src="app/mocks/accounts.js"></script>
+  <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <!-- Begin Routes (Landing pages) -->
+    <!-- Main (All Accounts) -->
+    <script src="app/routes/main/controller.js"></script>
+    <link rel="stylesheet" text="text/css" href="app/routes/main/style.css" />
+    <!-- Only Workers -->
+    <script src="app/routes/workers/controller.js"></script>
+    <link rel="stylesheet" text="text/css" href="app/routes/workers/style.css" />
+    <!-- Only Supervisors -->
+    <script src="app/routes/supervisors/controller.js"></script>
+    <link rel="stylesheet" text="text/css" href="app/routes/supervisors/style.css" />
+  <!-- Begin Widgets -->
+    <!-- Account Summary -->
+    <script src="app/widgets/accounts/summary/controller.js"></script>
+    <script src="app/widgets/accounts/summary/directive.js"></script>
+    <link rel="stylesheet" text="text/css" href="app/widgets/accounts/summary/style.css" />
+  <base href="/" />
+</head>
+<body ng-app="WidgetExampleApp">
+  <h1>AngularJS Self Contained Widgets</h1>
+  <div class="route-ng-view">
+    <div ng-view></div>
+  </div>
+</body>
+</html>
